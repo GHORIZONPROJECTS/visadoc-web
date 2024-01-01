@@ -78,8 +78,8 @@ function Footer() {
 
         {/* <p className="text-align: center"> Copyright &copy; {currentYear} Your Name All Rights Reserved</p> */}
       
-        <p className='regular-14 w-full text-center text-gray-30'>Copyright &copy; {currentYear} Visadoc | All rights reserved</p>
-      </div>
+        <p className='regular-14 w-full text-center text-gray-30'>copyright &copy; 2015 - {currentYear} Visadoc | All rights reserved</p>
+      </div> 
     </footer>
   )
 }
