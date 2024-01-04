@@ -6,20 +6,20 @@ export default function ContactHeader() {
   return (
     <div className=' max-screen h-full flex bg-sky-800 flex-row justify-between items-center mb-10  '>
         <div className="w-80 items-center justify-center h-full mx-10">
-            <h1 className="text-6xl text-white">Contact Us</h1>
+            <h1 className="text-3xl text-white lg:text-6xl">Contact Us</h1>
             <div className="flex flex-row py-2 items-center">
-                <Link href="/"><p className="mr-2 text-2xl text-white">Home</p></Link>
-                <IoChevronForwardOutline className="text-xl text-white"/>
-                <p className="ml-2 text-2xl text-white">Contact Us</p>
+            <Link href="/"><p className="mr-1 text-base text-white lg:text-2xl">Home</p></Link>
+                <IoChevronForwardOutline className="text-base text-white lg:text-2xl"/>
+                <p className="ml-1 text-base text-white lg:text-2xl">Contact Us</p>
             </div>
            
         </div>
         <div>
           <Image
-            src='/hero.png'
+            src='/contacticon.png'
             alt="menu"
-            width={600}
-            height={600}
+            width={400}
+            height={400}
           // className=" inline-block cursor-pointer lg:hidden"
           />
         </div>
