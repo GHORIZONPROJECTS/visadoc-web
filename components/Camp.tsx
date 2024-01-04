@@ -8,7 +8,7 @@ const Camp = () => {
       <section className="py-24 bg-gray-200">
         <div className="containers">
           <div className=" lg:px-12 md:px-8 px-2  ">
-              <h1 className="uppercase font-bold text-center mb-4 text-blue-900 roboto md:text-4xl text-3xl lg:text-6xl px leading-24 ">Let Us Be Your Compass in the World of Immigration</h1>
+              <h1 className="uppercase font-bold text-center mb-4 text-blue-900 roboto md:text-4xl text-3xl lg:text-3xl px leading-24 ">Let Us Be Your Compass in the World of Immigration</h1>
               <h4 className="text-center mt-3 text-xl text-gray-50 ">We have in-depth knowledge of the complex immigration systems, regulations, and processes of various countries.</h4>
               <h2 className="arima text-center font-semibold text-3xl mt-5 mb-5">Choose your country to travel</h2>
           </div>
